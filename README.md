@@ -21,6 +21,6 @@ syscontact user@your-domain.com
 ```
 Then restart the setup auto-start for snmpd
 ```
-sudo service snmpd restart
-sudo chkconfig snmpd on
+sudo service snmpd restart;
+sudo chkconfig snmpd on;
 ```
