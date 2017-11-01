@@ -4,9 +4,9 @@ Details installation step refer to [here](http://docs.observium.org/install_rhel
 
 Install snmpd on servers that need to be monitored
 ```
-sudo yum -y install net-snmp net-snmp-utils
-sudo mv /etc/snmp/snmpd.conf /etc/snmp/snmpd.conf.orig
-sudo vim /etc/snmp/snmpd.conf
+sudo yum -y install net-snmp net-snmp-utils;
+sudo mv /etc/snmp/snmpd.conf /etc/snmp/snmpd.conf.orig;
+sudo vim /etc/snmp/snmpd.conf;
 ```
 For the snmpd.conf 
 ```
